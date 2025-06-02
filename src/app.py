@@ -18,7 +18,6 @@ products: DataFrame = spark.createDataFrame(
     ],
     ["id", "name"],
 )
-products.show()
 categories: DataFrame = spark.createDataFrame(
     [(1, "electronics"), (2, "books"), (3, "appliances"), (4, "tools"), (5, "home")],
     ["id", "name"],
